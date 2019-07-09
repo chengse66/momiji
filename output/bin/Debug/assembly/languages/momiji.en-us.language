@@ -1,0 +1,64 @@
+﻿font_family = Tahoma
+font_size = 8
+
+toolstrip_components = Components
+toolstrip_actions = Actions
+toolstrip_scenes = Scenes
+toolstrip_preferences = Preferences
+toolstrip_about = About momiji
+
+components_caption = Components
+components_toolstrip_search = Search
+components_toolstrip_style = View Style
+components_toolstrip_style_tile = Tile
+components_toolstrip_style_icon = Icon
+
+actions_caption = Actions
+actions_action = Action
+actions_emotion = Emotion
+actions_play = Play
+actions_cover = Cover Hair
+actions_shadow = Hair Shadow
+actions_elf = Elf Ears
+
+scenes_caption = Scenes
+scenes_toolstrip_character = Add Character
+scenes_toolstrip_pet = Add Pet
+scenes_toolstrip_image = Add Image
+scenes_toolstrip_delete = Delete
+scenes_toolstrip_duplicate = Duplicate Scene
+scenes_toolstrip_code = Code
+scenes_toolstrip_flip = Flip Horizontal
+scenes_toolstrip_save = Save
+scenes_toolstrip_save_all = Save All
+
+code_caption = Code
+code_analyze = Analyze
+code_accept = Accept
+
+preferences_caption = Preferences
+preferences_accept = Accept
+preferences_cancel = Cancel
+preferences_general = General
+preferences_general_explorer_style = Enable explorer visual style.
+preferences_general_top_most = Always on top.
+preferences_general_application_language = Language
+preferences_advance = Advance
+preferences_advance_output = Output
+preferences_advance_output_folderdialog = Select folder.
+preferences_advance_output_location = Location
+preferences_advance_output_frames = Save as frames.
+preferences_advance_output_maxcolor = Colors
+preferences_advance_output_backcolor = Backcolor
+preferences_advance_display = Display
+preferences_advance_display_count = Items per page.
+preferences_advance_display_backcolor = Canva
+
+palette_caption = Palette
+palette_accept = Accept
+palette_cancel = Cancel
+
+about_caption = About momiji
+about_description = MapleStory character imitator.
+about_company = Index laboratory.
+about_copyright = ©Kuroko Shirai.

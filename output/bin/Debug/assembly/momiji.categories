@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<momiji>
+  <genus name="宿主" type="host">
+    <species name="身体" type="0001" etc="" location="character" />
+    <species name="脸型" type="0002" etc="5" location="character\face" />
+    <species name="发型" type="0003" etc="7" location="character\hair" />
+    <species name="发型*" type="0004" etc="7" location="character\hair" />
+  </genus>
+  <genus name="装饰" type="accessory">
+    <species name="脸部" type="0101" etc="" location="character\accessory" />
+    <species name="眼睛" type="0102" etc="" location="character\accessory" />
+    <species name="耳朵" type="0103" etc="" location="character\accessory" />
+  </genus>
+  <genus name="防御" type="armor">
+    <species name="帽子" type="0100" etc="" location="character\cap" />
+    <species name="上装" type="0104" etc="" location="character\coat" />
+    <species name="套装" type="0105" etc="" location="character\longcoat" />
+    <species name="下装" type="0106" etc="" location="character\pants" />
+    <species name="鞋子" type="0107" etc="" location="character\shoes" />
+    <species name="手套" type="0108" etc="" location="character\glove" />
+    <species name="盾牌" type="0109" etc="" location="character\shield" />
+    <species name="披风" type="0110" etc="" location="character\cape" />
+  </genus>
+  <genus name="武器" type="weapon">
+    <species name="双头杖" type="0121" etc="1" location="character\weapon" />
+    <species name="灵魂手铳" type="0122" etc="1" location="character\weapon" />
+    <species name="亡命之徒" type="0123" etc="1" location="character\weapon" />
+    <species name="能量剑" type="0124" etc="1" location="character\weapon" />
+    <species name="魔法棒" type="0125" etc="1" location="character\weapon" />
+    <species name="限制器" type="0126" etc="1" location="character\weapon" />
+    <species name="锁链" type="0127" etc="1" location="character\weapon" />
+    <species name="魔力手套" type="0128" etc="1" location="character\weapon" />
+    <species name="单手剑" type="0130" etc="1" location="character\weapon" />
+    <species name="单手斧" type="0131" etc="1" location="character\weapon" />
+    <species name="单手钝器" type="0132" etc="1" location="character\weapon" />
+    <species name="短刀" type="0133" etc="1" location="character\weapon" />
+    <species name="刀" type="0134" etc="0" location="character\weapon" />
+    <species name="灵魂手镯" type="013526" etc="0" location="character\weapon" />
+    <species name="控制器" type="013530" etc="0" location="character\weapon" />
+    <species name="手杖" type="0136" etc="1" location="character\weapon" />
+    <species name="短杖" type="0137" etc="1" location="character\weapon" />
+    <species name="长杖" type="0138" etc="1" location="character\weapon" />
+    <species name="双手剑" type="0140" etc="2" location="character\weapon" />
+    <species name="双手斧" type="0141" etc="2" location="character\weapon" />
+    <species name="双手钝器" type="0142" etc="2" location="character\weapon" />
+    <species name="枪" type="0143" etc="2" location="character\weapon" />
+    <species name="矛" type="0144" etc="2" location="character\weapon" />
+    <species name="弓" type="0145" etc="2" location="character\weapon" />
+    <species name="弩" type="0146" etc="2" location="character\weapon" />
+    <species name="拳套" type="0147" etc="2" location="character\weapon" />
+    <species name="指节" type="0148" etc="2" location="character\weapon" />
+    <species name="火枪" type="0149" etc="0" location="character\weapon" />
+    <species name="铲/耙" type="0150" etc="2" location="character\weapon" />
+    <species name="镐/扳手" type="0151" etc="2" location="character\weapon" />
+    <species name="双弩枪" type="0152" etc="2" location="character\weapon" />
+    <species name="手持火炮" type="0153" etc="2" location="character\weapon" />
+    <species name="太刀" type="0154" etc="2" location="character\weapon" />
+    <species name="扇" type="0155" etc="1" location="character\weapon" />
+    <species name="大剑*" type="0156" etc="2" location="character\weapon" />
+    <species name="太刀*" type="0157" etc="2" location="character\weapon" />
+    <species name="拳炮" type="0158" etc="2" location="character\weapon" />
+  </genus>
+  <genus name="座驾" type="taming">
+    <species name="座驾" type="019" etc="" location="character\tamingmob" />
+  </genus>
+  <genus name="设置" type="install">
+    <species name="椅子" type="030" etc="" location="item\install" />
+  </genus>
+  <genus name="宠物" type="pet">
+    <species name="宠物" type="500" etc="" location="item\pet" />
+    <species name="宠物装备" type="0180" etc="" location="character\petequip" />
+  </genus>
+  <face>
+    <color name="黑色" index="0" value="0" />
+    <color name="蓝色" index="1" value="255" />
+    <color name="红色" index="2" value="16711680" />
+    <color name="绿色" index="3" value="65280" />
+    <color name="棕色" index="4" value="8405056" />
+    <color name="祖母绿色" index="5" value="65472" />
+    <color name="紫色" index="6" value="8388863" />
+    <color name="紫水晶色" index="7" value="16711935" />
+    <color name="银色" index="8" value="16777215" />
+  </face>
+  <hair>
+    <color name="黑色" index="0" value="0" />
+    <color name="红色" index="1" value="16711680" />
+    <color name="橙色" index="2" value="16744512" />
+    <color name="黄色" index="3" value="16776960" />
+    <color name="绿色" index="4" value="65280" />
+    <color name="蓝色" index="5" value="255" />
+    <color name="紫色" index="6" value="8388863" />
+    <color name="褐色" index="7" value="8405056" />
+  </hair>
+</momiji>

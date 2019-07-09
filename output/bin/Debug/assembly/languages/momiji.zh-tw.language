@@ -1,0 +1,64 @@
+﻿font_family = Tahoma
+font_size = 8
+
+toolstrip_components = 組件
+toolstrip_actions = 動作
+toolstrip_scenes = 場景
+toolstrip_preferences = 設置
+toolstrip_about = 關於momiji
+
+components_caption = 組件
+components_toolstrip_search = 搜索
+components_toolstrip_style = 顯示方式
+components_toolstrip_style_tile = 平鋪
+components_toolstrip_style_icon = 圖示
+
+actions_caption = 動作
+actions_action = 動作
+actions_emotion = 表情
+actions_play = 播放
+actions_cover = 遮蓋頭髮
+actions_shadow = 頭髮陰影
+actions_elf = 精靈耳朵
+
+scenes_caption = 場景
+scenes_toolstrip_character = 添加人物
+scenes_toolstrip_pet = 添加寵物
+scenes_toolstrip_image = 添加圖像
+scenes_toolstrip_delete = 刪除
+scenes_toolstrip_duplicate = 複製場景
+scenes_toolstrip_code = 代碼
+scenes_toolstrip_flip = 水平翻轉
+scenes_toolstrip_save = 保存
+scenes_toolstrip_save_all = 保存全部
+
+code_caption = 代碼
+code_analyze = 分析
+code_accept = 好
+
+preferences_caption = 設置
+preferences_accept = 好
+preferences_cancel = 取消
+preferences_general = 全體
+preferences_general_explorer_style = 啟用資源管理器風格。
+preferences_general_top_most = 總在最前面。
+preferences_general_application_language = 語言
+preferences_advance = 高級
+preferences_advance_output = 存儲
+preferences_advance_output_folderdialog = 請選擇資料夾。
+preferences_advance_output_location = 路徑
+preferences_advance_output_frames = 存儲為幀。
+preferences_advance_output_maxcolor = 色
+preferences_advance_output_backcolor = 背景顏色
+preferences_advance_display = 顯示
+preferences_advance_display_count = 每頁條目數量。
+preferences_advance_display_backcolor = 畫布
+
+palette_caption = 調色板
+palette_accept = 好
+palette_cancel = 取消
+
+about_caption = 關於momiji
+about_description = MapleStory人物模擬。
+about_company = Index實驗室。
+about_copyright = ©白井黒子。

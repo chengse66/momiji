@@ -1,0 +1,3 @@
+LIBRARY libgif
+EXPORTS
+	gif_encoder_construct	@1	NONAME

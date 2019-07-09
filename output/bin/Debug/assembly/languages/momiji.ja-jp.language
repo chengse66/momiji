@@ -1,0 +1,64 @@
+﻿font_family = MS UI Gothic
+font_size = 9
+
+toolstrip_components = 構成
+toolstrip_actions = 動作
+toolstrip_scenes = シーン
+toolstrip_preferences = 設定
+toolstrip_about = momiji について
+
+components_caption = 構成
+components_toolstrip_search = 検索
+components_toolstrip_style = 表示方法
+components_toolstrip_style_tile = 並べて
+components_toolstrip_style_icon = アイコン
+
+actions_caption = 動作
+actions_action = 動作
+actions_emotion = 表情
+actions_play = 再生
+actions_cover = 髪を覆う
+actions_shadow = 髪の影
+actions_elf = エルフ耳
+
+scenes_caption = シーン
+scenes_toolstrip_character = キャラクターを追加
+scenes_toolstrip_pet = ペットを追加
+scenes_toolstrip_image = 画像を追加
+scenes_toolstrip_delete = 削除
+scenes_toolstrip_duplicate = シーンを複製
+scenes_toolstrip_code = コード
+scenes_toolstrip_flip = 左右反転
+scenes_toolstrip_save = 保存
+scenes_toolstrip_save_all = すべて保存
+
+code_caption = コード
+code_analyze = 解析
+code_accept = はい
+
+preferences_caption = 設定
+preferences_accept = はい
+preferences_cancel = 破棄
+preferences_general = 全般
+preferences_general_explorer_style = エクスプローラー スタイルを有効にする。
+preferences_general_top_most = 常に手前に表示する。
+preferences_general_application_language = 言語
+preferences_advance = 高度
+preferences_advance_output = 出力
+preferences_advance_output_folderdialog = フォルダーを選んでください。
+preferences_advance_output_location = 位置
+preferences_advance_output_frames = フレームとして保存する。
+preferences_advance_output_maxcolor = 色
+preferences_advance_output_backcolor = 背景色
+preferences_advance_display = 表示
+preferences_advance_display_count = 一ページにつき項目数。
+preferences_advance_display_backcolor = 画布
+
+palette_caption = 調色板
+palette_accept = はい
+palette_cancel = 破棄
+
+about_caption = momiji について
+about_description = 楓物語 キャラクター イミテーター。
+about_company = インデックス ラボラトリー。
+about_copyright = ©白井黒子。

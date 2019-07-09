@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AF9C5DE-00BD-429B-BD6C-F15E31F0FCAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>momiji</RootNamespace>
+    <AssemblyName>momiji</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <IntermediateOutputPath>..\output\obj\Debug\</IntermediateOutputPath>
+    <OutputPath>..\output\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <IntermediateOutputPath>..\output\obj\Release\</IntermediateOutputPath>
+    <OutputPath>..\output\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="palette.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assembly.cs" />
+    <Compile Include="code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="components.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gif_encoder.cs" />
+    <Compile Include="momiji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="momiji_base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="momiji_preferences.cs" />
+    <Compile Include="manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="momiji.resx">
+      <DependentUpon>momiji.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\icon.ico" />
+    <Content Include="resources\portrait.png" />
+    <Content Include="resources\toolstrip_about.png" />
+    <Content Include="resources\toolstrip_actions.png" />
+    <Content Include="resources\toolstrip_beginner.png" />
+    <Content Include="resources\toolstrip_bowman.png" />
+    <Content Include="resources\toolstrip_cash.png" />
+    <None Include="resources\toolstrip_character.png" />
+    <Content Include="resources\toolstrip_code.png" />
+    <Content Include="resources\toolstrip_components.png" />
+    <Content Include="resources\toolstrip_delete.png" />
+    <Content Include="resources\toolstrip_duplicate.png" />
+    <Content Include="resources\toolstrip_female.png" />
+    <None Include="resources\toolstrip_flip.png" />
+    <None Include="resources\toolstrip_image.png" />
+    <Content Include="resources\toolstrip_magician.png" />
+    <Content Include="resources\toolstrip_male.png" />
+    <Content Include="resources\toolstrip_neutral.png" />
+    <None Include="resources\toolstrip_pet.png" />
+    <Content Include="resources\toolstrip_pirate.png" />
+    <None Include="resources\toolstrip_preferences.png" />
+    <Content Include="resources\toolstrip_save.png" />
+    <Content Include="resources\toolstrip_save_all.png" />
+    <Content Include="resources\toolstrip_scenes.png" />
+    <Content Include="resources\toolstrip_search.png" />
+    <Content Include="resources\toolstrip_standard.png" />
+    <Content Include="resources\toolstrip_style_icon.png" />
+    <Content Include="resources\toolstrip_style_tile.png" />
+    <Content Include="resources\toolstrip_thief.png" />
+    <Content Include="resources\toolstrip_unlimited.png" />
+    <Content Include="resources\toolstrip_warrior.png" />
+    <Content Include="resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libwz.net\libwz.net.csproj">
+      <Project>{edb3c0dd-e49d-493e-be6b-b4a6fed33f9f}</Project>
+      <Name>libwz.net</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
