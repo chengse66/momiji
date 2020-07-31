@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Xml;
 using System.Windows.Forms;
@@ -877,32 +877,35 @@ internal class manager : Form
 
 				if (!res["character", "weapon", identity])
 				{
-					string real = int.Parse(identity).ToString();
-					wzproperty property = package.root[""];
-					wzproperty info = property["info"];
-					wzproperty commodity = commodities[real];
-					string etc = "";
+                    if (int.TryParse(identity, out int r))
+                    {
+                        string real = r.ToString();
+                        wzproperty property = package.root[""];
+                        wzproperty info = property["info"];
+                        wzproperty commodity = commodities[real];
+                        string etc = "";
 
-					if ('7' == package.identity[2])
-					{
-						foreach (string type in property.identities)
-							if ("info" != type)
-								etc = etc + "," + type;
+                        if ('7' == package.identity[2])
+                        {
+                            foreach (string type in property.identities)
+                                if ("info" != type)
+                                    etc = etc + "," + type;
 
-						etc = etc.Remove(0, 1);
-					}
+                            etc = etc.Remove(0, 1);
+                        }
 
-					weapon.Add(identity, new res_object(
-						identity.Substring(0, identity.StartsWith("0135") ? 6 : 4),
-						identity,
-						query_name(real, identities),
-						query_level(info, commodity),
-						query_gender(commodity),
-						query_cash(info),
-						query_job(info),
-						etc));
+                        weapon.Add(identity, new res_object(
+                            identity.Substring(0, identity.StartsWith("0135") ? 6 : 4),
+                            identity,
+                            query_name(real, identities),
+                            query_level(info, commodity),
+                            query_gender(commodity),
+                            query_cash(info),
+                            query_job(info),
+                            etc));
 
-					generate_image(location, identity, info["iconRaw"]);
+                        generate_image(location, identity, info["iconRaw"]);
+                    }
 				}
 			}
 
