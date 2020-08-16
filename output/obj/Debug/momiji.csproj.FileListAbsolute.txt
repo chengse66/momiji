@@ -1,0 +1,9 @@
+D:\develop\github\momiji\output\obj\Debug\momiji.csprojAssemblyReference.cache
+D:\develop\github\momiji\output\obj\Debug\momiji_host.resources
+D:\develop\github\momiji\output\obj\Debug\momiji.csproj.GenerateResource.cache
+D:\develop\github\momiji\output\obj\Debug\momiji.csproj.CoreCompileInputs.cache
+D:\develop\github\momiji\output\obj\Debug\momiji.csproj.CopyComplete
+D:\develop\github\momiji\output\obj\Debug\momiji.exe
+D:\develop\github\momiji\output\obj\Debug\momiji.pdb
+D:\develop\github\momiji\output\momiji.exe
+D:\develop\github\momiji\output\momiji.pdb

@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <IntermediateOutputPath>..\output\obj\Debug\</IntermediateOutputPath>
-    <OutputPath>..\output\bin\Debug\</OutputPath>
+    <OutputPath>..\output\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -132,7 +132,6 @@
     <ProjectReference Include="..\libwz.net\libwz.net.csproj">
       <Project>{edb3c0dd-e49d-493e-be6b-b4a6fed33f9f}</Project>
       <Name>libwz.net</Name>
-      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

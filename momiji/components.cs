@@ -1169,7 +1169,7 @@ internal class components_objects : Dictionary<string, components_object>
 		"Install", "Pet"
 	};
 
-    //TODO: 解析包
+    //TODO: ParsePackage
 	internal components_objects(string location, XmlNode componentses, components_sources sources)
 	{
 		string[] entries = location.Split(new char[] { '\\', }, StringSplitOptions.RemoveEmptyEntries);
@@ -1180,12 +1180,12 @@ internal class components_objects : Dictionary<string, components_object>
 
             if (entries[0] == components.Name)
             {
-                wzpackage package = sources.exists(Path.GetFullPath(components.Attributes["location"].Value))[entries[0]];
+                var package = sources.exists(Path.GetFullPath(components.Attributes["location"].Value))[entries[0]];
 
                 for (int entry = 1; entry < entries.Length; ++entry)
                 {
                     components = components[entries[entry]];
-
+					Console.WriteLine("Parse:"+entries[entry]);
                     if (null != package)
                         package = package[match_species(entries[entry])];
                 }
@@ -1208,7 +1208,7 @@ internal class components_objects : Dictionary<string, components_object>
 
 	private string match_species(string origin)
 	{
-		foreach (string species in specieses)
+		foreach (var species in specieses)
 			if (origin.ToLower() == species.ToLower())
 				return species;
 

@@ -1,0 +1,5 @@
+D:\develop\github\momiji\output\obj\Debug\assembly\libwz.net.csproj.CoreCompileInputs.cache
+D:\develop\github\momiji\output\obj\Debug\assembly\libwz.net.dll
+D:\develop\github\momiji\output\obj\Debug\assembly\libwz.net.pdb
+D:\develop\github\momiji\output\libwz.net.dll
+D:\develop\github\momiji\output\libwz.net.pdb

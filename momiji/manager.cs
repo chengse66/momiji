@@ -137,7 +137,7 @@ internal class manager : Form
 		res_group[] groups = parameter as res_group[];
 
 		Invoke(new Action<int>(delegate(int o)
-		{
+		{ 
 			locations.Enabled = false;
 
 			archive.Style = ProgressBarStyle.Marquee;
